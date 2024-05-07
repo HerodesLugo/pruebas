@@ -5,7 +5,9 @@ import { useRouter } from 'next/navigation'
 const NotFound  = () => {
   const router = useRouter()
   return (
-    <div className='text-gray-600 text-4xl'>Pagina no encontrada </div>
+   <>
+   <h1 className='mx-auto w-full'>pagina no encontrada</h1>
+   </>
   )
 }
 
